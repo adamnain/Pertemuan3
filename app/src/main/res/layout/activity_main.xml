@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/et_nilai1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai 1" />
+
+    <EditText
+        android:id="@+id/et_nilai2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai 2" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_jumlah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah" />
+
+        <RadioButton
+            android:id="@+id/rb_kurang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kurang" />
+
+        <RadioButton
+            android:id="@+id/rb_bagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagi" />
+
+        <RadioButton
+            android:id="@+id/rb_kali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kali" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah" />
+
+
+</LinearLayout>
